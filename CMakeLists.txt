@@ -76,6 +76,7 @@ find_package(OpenGL REQUIRED)
 add_library(ImGui-SFML
   imgui-SFML.cpp
   ${IMGUI_SOURCES}
+  ${IMGUI_DEMO_SOURCES}
 )
 
 # Add pretty alias
